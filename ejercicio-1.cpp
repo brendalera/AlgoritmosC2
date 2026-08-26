@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
 	int numero;
-	cout << “Ingrese un número: “;
+	cout << "Ingrese un número: ";
 	cin >> numero;
-	cout << “\"Numero ingresado\" = “ << numero << endl;
+	cout << "Numero ingresado = " << numero << endl;
 	return 0;
 } 
