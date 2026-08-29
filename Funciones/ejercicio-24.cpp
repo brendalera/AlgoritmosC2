@@ -1,20 +1,7 @@
 #include <iostream>
+#include "funciones.h"
 
 using namespace std;
-
-bool tieneRaicesReales(float A, float B, float C) {
-
-    float d;
-
-    d = B * B - 4 * A * C;
-
-    if (d >= 0) {
-        return true;
-    }
-    else {
-        return false;
-    }
-}
 
 int main() {
 
